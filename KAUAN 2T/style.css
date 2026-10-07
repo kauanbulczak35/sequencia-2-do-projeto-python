@@ -1,0 +1,59 @@
+/*CONFIG DA PAGINA*/
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #290b0b;
+    color:aliceblue;
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+}
+
+/*CONTEUDO PRINCIPAL*/
+
+main{
+    padding-top: 20px;
+}
+
+/*AREA DO JOGO*/
+
+#jogo {
+    width:700px;
+    height:450px;
+
+    margin:20px auto;
+
+    position: relative;
+
+    border:3px solid white;
+
+    background-color: #1f2937;
+
+    overflow: hidden;
+}
+
+
+/*JOGADOR*/
+
+#jogador {
+    position: absolute;
+
+    left: 100px;
+    top: 100px;
+
+    font-size: 40px;
+
+    user-select: none;
+}
+
+
+/*MENSAGEM*/
+
+#mensagem {
+    font-size: 20px;
+
+    font-weight: bold;
+}
